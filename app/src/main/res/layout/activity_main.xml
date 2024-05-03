@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Image View -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picforapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Login button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_below="@id/myImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Timesheet entries button -->
+    <Button
+        android:id="@+id/timesheetEntriesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="timesheet_entries"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Goals button -->
+    <Button
+        android:id="@+id/goalsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goals"
+        android:layout_below="@id/timesheetEntriesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Categories button -->
+    <Button
+        android:id="@+id/categoriesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="categories"
+        android:layout_below="@id/goalsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Timer button -->
+    <Button
+        android:id="@+id/timerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_timer"
+        android:layout_below="@id/categoriesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Timer TextView -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/countdown"
+        android:layout_below="@id/timerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Timer ProgressBar -->
+    <ProgressBar
+        android:id="@+id/timerProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTextView"
+        android:layout_marginTop="16dp"
+        android:indeterminate="false"
+        android:max="60"
+        android:visibility="visible" />
+
+</RelativeLayout>

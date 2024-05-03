@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- EditText for entering category name -->
+    <EditText
+        android:id="@+id/categoryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter category name"
+        android:layout_margin="16dp" />
+
+    <!-- Button to save the category -->
+    <Button
+        android:id="@+id/saveCategoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryEditText"
+        android:layout_centerHorizontal="true"
+        android:text="Save Category"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView to display the selected category -->
+    <TextView
+        android:id="@+id/categoryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saveCategoryButton"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

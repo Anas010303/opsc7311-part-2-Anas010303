@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67384988018",
+    "project_id": "timetracker-2dc08",
+    "storage_bucket": "timetracker-2dc08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67384988018:android:60524270804446781c4deb",
+        "android_client_info": {
+          "package_name": "za.co.varsitycollege.st10038595.poedf_timetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGKX6NCa0qd9ykZ4gjwBKjHA-uxX81DkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
